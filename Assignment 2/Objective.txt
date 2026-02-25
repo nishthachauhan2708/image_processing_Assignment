@@ -1,0 +1,37 @@
+Learning Objectives :
+
+ - Understand real-world image noise sources.
+ - Implement noise models in Python.
+ - Apply spatial filtering for image restoration.
+ - Evaluate restoration quality using objective metrics.
+
+Assignment Tasks : 
+
+Task 1: Image Selection and Preprocessing
+- Load a surveillance-style image (street, corridor, parking area)
+- Convert the image to grayscale
+- Display the original image
+
+Task 2: Noise Modeling
+- Simulate:
+- Gaussian noise (sensor noise)
+- Salt-and-pepper noise (transmission errors)
+- Display noisy images
+
+Task 3: Image Restoration Techniques
+- Apply spatial filters:
+- Mean filter
+- Median filter
+- Gaussian filter
+- Observe noise suppression and detail preservation
+
+Task 4: Performance Evaluation
+- Compute:
+- Mean Squared Error (MSE)
+- Peak Signal-to-Noise Ratio (PSNR)
+- Compare restored images with original
+
+Task 5: Analytical Discussion
+- Print filter-wise performance comparison
+- Identify the best restoration method for each noise type
+- Justify results based on theory
