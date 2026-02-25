@@ -1,0 +1,43 @@
+Learning Objectives
+
+ - Understand image sensing and acquisition mechanisms.
+ - Apply grayscale conversion and preprocessing.
+ - Analyze effects of sampling (resolution reduction).
+ - Analyze effects of quantization (bit-depth reduction).
+ - Visually and analytically compare image quality.
+
+Assignment Tasks :
+
+Task 1: Project Setup and Introduction
+- Create a project folder document_scanner/
+- Create a Python file scanner.py
+- Add header comments (Name, Roll No, Course, Unit, Assignment Title)
+- Print a welcome message describing the document scanning system
+
+Task 2: Image Acquisition
+- Load a document image (PDF scan / printed text image) OR capture using webcam
+- Resize the image to a standard size (e.g., 512×512)
+- Convert the image to grayscale
+- Display original and grayscale images
+
+Task 3: Image Sampling (Resolution Analysis)
+- Down-sample the grayscale image to simulate:
+- High resolution (512×512)
+- Medium resolution (256×256)
+- Low resolution (128×128)
+- Upscale back for visualization
+- Compare text clarity and edge sharpness
+
+Task 4: Image Quantization (Gray Level Reduction)
+- Quantize grayscale image into:
+- 256 gray levels (8-bit)
+- 16 gray levels (4-bit)
+- 4 gray levels (2-bit)
+- Visualize quantization artifacts
+
+Task 5: Quality Observation & Analysis
+- Print observations on:
+- Loss of fine text details
+- Readability degradation
+- Suitability for OCR
+- Display all outputs in a single comparison figure
